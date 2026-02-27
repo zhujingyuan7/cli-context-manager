@@ -1,0 +1,33 @@
+{
+  "thresholds": {
+    "maxSizeKB": 500,
+    "maxLines": 300
+  },
+  "compression": {
+    "keepMessages": 100,
+    "keepSystemLines": 5,
+    "createBackup": true
+  },
+  "tools": {
+    "cursor": {
+      "sessionDir": "~/.cursor/sessions",
+      "enabled": true,
+      "format": "jsonl"
+    },
+    "aider": {
+      "sessionDir": "~/.aider/sessions",
+      "enabled": true,
+      "format": "jsonl"
+    },
+    "claude-code": {
+      "sessionDir": "~/.claude/sessions",
+      "enabled": true,
+      "format": "jsonl"
+    },
+    "openclaw": {
+      "sessionDir": "~/.openclaw/agents/main/sessions",
+      "enabled": true,
+      "format": "jsonl"
+    }
+  }
+}
