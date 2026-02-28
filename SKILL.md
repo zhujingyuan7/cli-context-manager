@@ -5,7 +5,7 @@
 ## 何时激活
 
 当出现以下情况时激活此技能：
-- AI CLI coding tool（如Cursor、Aider、Claude Code等）没有回复（replies=0）
+- AI CLI coding tool（如Claude Code、Aider、OpenCode等）没有回复（replies=0）
 - 用户需要管理或清理CLI工具的会话上下文
 - 会话文件过大导致性能问题
 - 用户询问如何优化CLI工具的上下文
@@ -16,7 +16,7 @@
 - 自动监控会话状态和大小
 - 智能压缩过大的会话文件
 - 保留重要消息和配置
-- 兼容多种AI CLI工具（Cursor、Aider、Claude Code等）
+- 兼容多种AI CLI工具（Claude Code、Aider、OpenCode等）
 
 ## 工作流程
 
