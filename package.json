@@ -11,9 +11,11 @@
     "skill",
     "ai-cli",
     "context-management",
-    "cursor",
+    "claude-code",
     "aider",
-    "claude-code"
+    "codex",
+    "gemini-cli",
+    "opencode"
   ],
   "author": "小7 <xiao7@openclaw.ai>",
   "license": "MIT",

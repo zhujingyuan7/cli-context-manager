@@ -9,8 +9,8 @@
     "createBackup": true
   },
   "tools": {
-    "cursor": {
-      "sessionDir": "~/.cursor/sessions",
+    "claude-code": {
+      "sessionDir": "~/.claude/sessions",
       "enabled": true,
       "format": "jsonl"
     },
@@ -19,13 +19,18 @@
       "enabled": true,
       "format": "jsonl"
     },
-    "claude-code": {
-      "sessionDir": "~/.claude/sessions",
+    "codex": {
+      "sessionDir": "~/.codex/sessions",
       "enabled": true,
       "format": "jsonl"
     },
-    "openclaw": {
-      "sessionDir": "~/.openclaw/agents/main/sessions",
+    "gemini-cli": {
+      "sessionDir": "~/.gemini-cli/sessions",
+      "enabled": true,
+      "format": "jsonl"
+    },
+    "opencode": {
+      "sessionDir": "~/.opencode/sessions",
       "enabled": true,
       "format": "jsonl"
     }

@@ -218,10 +218,11 @@ function compressSession(sessionPath, tool = 'unknown') {
  */
 function findToolSessions(tool) {
   const toolDirs = {
-    cursor: path.join(os.homedir(), '.cursor', 'sessions'),
-    aider: path.join(os.homedir(), '.aider', 'sessions'),
     'claude-code': path.join(os.homedir(), '.claude', 'sessions'),
-    openclaw: path.join(os.homedir(), '.openclaw', 'agents', 'main', 'sessions')
+    aider: path.join(os.homedir(), '.aider', 'sessions'),
+    codex: path.join(os.homedir(), '.codex', 'sessions'),
+    'gemini-cli': path.join(os.homedir(), '.gemini-cli', 'sessions'),
+    opencode: path.join(os.homedir(), '.opencode', 'sessions')
   };
 
   const dir = toolDirs[tool];
@@ -247,10 +248,11 @@ function findToolSessions(tool) {
  */
 function findAllSessions() {
   const toolDirs = {
-    cursor: path.join(os.homedir(), '.cursor', 'sessions'),
-    aider: path.join(os.homedir(), '.aider', 'sessions'),
     'claude-code': path.join(os.homedir(), '.claude', 'sessions'),
-    openclaw: path.join(os.homedir(), '.openclaw', 'agents', 'main', 'sessions')
+    aider: path.join(os.homedir(), '.aider', 'sessions'),
+    codex: path.join(os.homedir(), '.codex', 'sessions'),
+    'gemini-cli': path.join(os.homedir(), '.gemini-cli', 'sessions'),
+    opencode: path.join(os.homedir(), '.opencode', 'sessions')
   };
 
   const allSessions = [];

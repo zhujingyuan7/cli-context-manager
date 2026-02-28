@@ -28,10 +28,11 @@
 
 | 工具 | 状态 |
 |------------|--------------|
-| Cursor | ✅ 完全支持 |
-| Aider | ✅ 完全支持 |
 | Claude Code | ✅ 完全支持 |
-| OpenClaw | ✅ 完全支持 |
+| Aider | ✅ 完全支持 |
+| Codex | ✅ 完全支持 |
+| Gemini CLI | ✅ 完全支持 |
+| OpenCode | ✅ 完全支持 |
 | 自定义工具 | ✅ 支持配置 |
 
 ## 📦 安装
@@ -75,20 +76,24 @@ xcopy /E /I cli-context-manager %USERPROFILE%\.openclaw\skills\cli-context-manag
     "createBackup": true
   },
   "tools": {
-    "cursor": {
-      "sessionDir": "~/.cursor/sessions",
+    "claude-code": {
+      "sessionDir": "~/.claude/sessions",
       "enabled": true
     },
     "aider": {
       "sessionDir": "~/.aider/sessions",
       "enabled": true
     },
-    "claude-code": {
-      "sessionDir": "~/.claude/sessions",
+    "codex": {
+      "sessionDir": "~/.codex/sessions",
       "enabled": true
     },
-    "openclaw": {
-      "sessionDir": "~/.openclaw/agents/main/sessions",
+    "gemini-cli": {
+      "sessionDir": "~/.gemini-cli/sessions",
+      "enabled": true
+    },
+    "opencode": {
+      "sessionDir": "~/.opencode/sessions",
       "enabled": true
     }
   }
@@ -236,8 +241,8 @@ rm ~/.tool/sessions/*.backup
 ```json
 {
   "tools": {
-    "new-tool": {
-      "sessionDir": "~/.new-tool/sessions",
+    "my-tool": {
+      "sessionDir": "~/.my-tool/sessions",
       "enabled": true,
       "format": "jsonl"
     }
@@ -290,10 +295,11 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 | Tool | Status |
 |------------|--------------|
-| Cursor | ✅ Fully Supported |
-| Aider | ✅ Fully Supported |
 | Claude Code | ✅ Fully Supported |
-| OpenClaw | ✅ Fully Supported |
+| Aider | ✅ Fully Supported |
+| Codex | ✅ Fully Supported |
+| Gemini CLI | ✅ Fully Supported |
+| OpenCode | ✅ Fully Supported |
 | Custom Tools | ✅ Configurable |
 
 ## 📦 Installation
@@ -337,20 +343,24 @@ Edit the `CONFIG.json` file to customize behavior:
     "createBackup": true
   },
   "tools": {
-    "cursor": {
-      "sessionDir": "~/.cursor/sessions",
+    "claude-code": {
+      "sessionDir": "~/.claude/sessions",
       "enabled": true
     },
     "aider": {
       "sessionDir": "~/.aider/sessions",
       "enabled": true
     },
-    "claude-code": {
-      "sessionDir": "~/.claude/sessions",
+    "codex": {
+      "sessionDir": "~/.codex/sessions",
       "enabled": true
     },
-    "openclaw": {
-      "sessionDir": "~/.openclaw/agents/main/sessions",
+    "gemini-cli": {
+      "sessionDir": "~/.gemini-cli/sessions",
+      "enabled": true
+    },
+    "opencode": {
+      "sessionDir": "~/.opencode/sessions",
       "enabled": true
     }
   }
@@ -552,10 +562,11 @@ Thanks to all contributors and supporters!
 
 | ツール | 状態 |
 |------------|--------------|
-| Cursor | ✅ 完全にサポート |
-| Aider | ✅ 完全にサポート |
 | Claude Code | ✅ 完全にサポート |
-| OpenClaw | ✅ 完全にサポート |
+| Aider | ✅ 完全にサポート |
+| Codex | ✅ 完全にサポート |
+| Gemini CLI | ✅ 完全にサポート |
+| OpenCode | ✅ 完全にサポート |
 | カスタムツール | ✅ 設定可能 |
 
 ## 📦 インストール
@@ -599,20 +610,24 @@ xcopy /E /I cli-context-manager %USERPROFILE%\.openclaw\skills\cli-context-manag
     "createBackup": true
   },
   "tools": {
-    "cursor": {
-      "sessionDir": "~/.cursor/sessions",
+    "claude-code": {
+      "sessionDir": "~/.claude/sessions",
       "enabled": true
     },
     "aider": {
       "sessionDir": "~/.aider/sessions",
       "enabled": true
     },
-    "claude-code": {
-      "sessionDir": "~/.claude/sessions",
+    "codex": {
+      "sessionDir": "~/.codex/sessions",
       "enabled": true
     },
-    "openclaw": {
-      "sessionDir": "~/.openclaw/agents/main/sessions",
+    "gemini-cli": {
+      "sessionDir": "~/.gemini-cli/sessions",
+      "enabled": true
+    },
+    "opencode": {
+      "sessionDir": "~/.opencode/sessions",
       "enabled": true
     }
   }
