@@ -1,3 +1,9 @@
+---
+name: cli-context-manager
+description: "AI CLI coding tools session context manager - automatically compresses oversized session files to prevent no-reply issues"
+version: 1.0.0
+---
+
 # CLI Context Manager
 
 **自动管理AI CLI coding工具的上下文，防止无回复问题**
