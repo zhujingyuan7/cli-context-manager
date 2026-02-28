@@ -1,7 +1,7 @@
 ---
 name: cli-context-manager
 description: "AI CLI coding tools session context manager - automatically compresses oversized session files to prevent no-reply issues"
-version: 1.0.0
+version: 1.0.1
 ---
 
 # CLI Context Manager

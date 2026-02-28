@@ -1,6 +1,6 @@
 {
   "name": "cli-context-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenClaw skill for managing AI CLI coding tool context to prevent no-reply issues",
   "main": "index.js",
   "scripts": {
